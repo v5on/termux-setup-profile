@@ -73,18 +73,3 @@ This project is released under the MIT License, so feel free to fork and modify 
 > 💬 “The best of houses is the house where an orphan gets love and kindness.” — Prophet Muhammad ﷺ
 
 ---
-`
-
----
-
-📂 Include This Script: termux-setup.sh
-
-You've already got this file from earlier — include it as-is in the repo root.
-
----
-
-🪪 License Suggestion
-
-Add a LICENSE file using the MIT license. You can easily generate that while creating the repo on GitHub.
-
----
