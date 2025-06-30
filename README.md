@@ -15,26 +15,41 @@ Easily customize your Termux with colorful banners, organized folders, shell sho
 
 ---
 
-🚀 Installation (2 Step Setup)
+🚀 Installation (Step-by-Step)
 
-✅ Step 1: Clone the Repository
+✅ Step 1: Install Git (if not available)
+
+`bash
+pkg update && pkg upgrade -y
+pkg install git openssl-tool -y
+`
+
+> ⚠️ যদি git ব্যবহার করতে গিয়ে libcrypto.so.3 not found এর মত error আসে, তাহলে নিচের কমান্ডগুলো ব্যবহার করুন:
+`bash
+pkg uninstall git
+pkg install openssl-tool
+pkg install git
+`
+
+---
+
+🧠 Step 2: Clone the Repository
 
 `bash
 git clone https://github.com/v5on/termux-setup-profile.git
 cd termux-setup-profile
 `
 
-🧩 Step 2: Run the Setup Script
+---
+
+🧩 Step 3: Run the Setup Script
 
 `bash
 chmod +x termux-setup.sh
 ./termux-setup.sh
 `
 
-💬 During setup, it will ask for:
-
-- Your display name (e.g. Sultan)
-- A short terminal description (e.g. Developer’s Forge: Precision | Poetry | Code)
+> 📌 রান করার সময় স্ক্রিপ্ট আপনার নাম ও বর্ণনা জিজ্ঞেস করবে। আপনি যা চান তা দিয়ে দিন—আপনার জন্য environment auto-customize হয়ে যাবে!
 
 ---
 
